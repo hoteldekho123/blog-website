@@ -33,6 +33,38 @@
 /* small mobile :768px. */
 @media (max-width:767px){
     .comment-form .name{padding-right:0px;margin-bottom:1rem;}
+    .entry-wraper .excerpt p, .single-excerpt p {
+        font-size: 1em;
+        line-height: 28px;
+    }
+    .entry-main-content p {
+        font-size: 14px;
+        line-height: 29px;
+    }
+    hr {
+        margin: 18px 0;
+    }
+    .archive-header h2 {
+        font-size: 32px;
+    }
+    .post-thumb h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .post-card-1 .post-content {
+        padding: 20px !important;
+    }
+    .post-card-1 h5 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .font-large {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    p {
+        line-height: 29px;
+    }
 }
 
 /* Large Mobile :480px. */
@@ -49,7 +81,7 @@
     .preloader::before{font-size:3em}
     .loop-list-style-1 .post-thumb{margin-bottom:15px;}
     .featured-1 h2{font-size:30px;font-weight:900;}
-    .entry-header .entry-title{font-size:2.2em;}
+    .entry-header .entry-title{font-size:1.5em;line-height: 38px;margin-bottom: 35px !important;}
     .featured-slider-2-items .post-thumb .thumb-overlay{min-height:450px;}
     .featured-slider-2 .post-content-overlay .post-title{max-width:100%;}
     .featured-slider-2-nav{display:none}
